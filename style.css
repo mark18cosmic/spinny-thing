@@ -1,0 +1,164 @@
+body {
+    background: #474747;
+  }
+  
+  .box {
+    position: relative;
+    width: 600px;
+    height: 420px;
+    background: none;
+    margin: 0 auto;
+    margin-top: 8%;
+    display: block;
+    padding-bottom: 20%;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) rotate(360deg);
+    }
+  }
+  
+  .spinner {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: none;
+    animation: spin 3s ease-in-out infinite;
+  }
+  
+  .center {
+    position: relative;
+    background: blue;
+    width: 49%;
+    height: 70%;
+    border-radius: 50%;
+    top: 15%;
+    left: 25.5%;
+  }
+  
+  .grip {
+    position: relative;
+    background: blue;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    top: 35%;
+    left: 35%;
+    box-shadow: 0 0 10px #333
+  }
+  
+  .shaper1 {
+    position: absolute;
+    background: #474747;
+    width: 30%;
+    height: 43%;
+    border-radius: 50%;
+    top: 6.4%;
+    left: 9.2%;
+  }
+  
+  .shaper2 {
+    position: absolute;
+    background: #474747;
+    width: 30%;
+    height: 43%;
+    border-radius: 50%;
+    top: 6.8%;
+    left: 61.7%;
+  }
+  
+  .shaper3 {
+    position: absolute;
+    background: #474747;
+    width: 30%;
+    height: 43%;
+    border-radius: 50%;
+    top: 71%;
+    left: 34.9%;
+  }
+  
+  .one, .two, .three {
+    background: blue;
+    width: 25%;
+    height: 35%;
+    position: relative;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .one {
+    top: -70%;
+    left: 38%;
+  }
+  
+  .two {
+    top: -57%;
+    left: 18%;
+  }
+  
+  .three {
+    top: -92%;
+    left: 56.5%;
+  }
+  
+  .outer-silver {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background: #BBB;
+    border-radius: 50%;
+    left: 10%;
+    top: 10%;
+  }
+  
+  .black {
+    position: relative;
+    width: 95%;
+    height: 95%;
+    background: #222;
+    border-radius: 50%;
+    left: 2.5%;
+    top: 2.5%;
+  }
+  
+  .inner-silver {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background: #BBB;
+    border-radius: 50%;
+    left: 20%;
+    top: 20%;
+  }
+  
+  .hole{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    background: #474747;
+    border-radius: 50%;
+    left: 2.5%;
+    top: 2.5%;
+  }
+  
+  .tag {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.5em;
+    background: #4e6384;
+    padding: 1%;
+    box-shadow: 2px 2px 5px #000;
+  }
+  
+  .tag a {
+    color: #96bfff;
+    text-decoration: none;
+  }
